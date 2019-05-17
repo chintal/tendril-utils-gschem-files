@@ -20,8 +20,8 @@ gEDA schematic file parser module (:mod:`tendril.utils.files.gschem`)
 
 Detachable gEDA sch file parser and processing module. This component 
 should perhaps be parcelled out into its own project. Additional 
-functionality that's tightly coupled with the tendril core (or 
-assumptions thereof) resides instead in :mod:`tendril.gedaif.gschem`. 
+functionality that's tightly coupled with the tendril core (or assumptions
+thereof) resides instead in :mod:`tendril.connectors.geda.gschem`.
 This division might need some reconsideration in the near future, and 
 functionality which can be safely decoupled from the core should come 
 here instead. It will later be proxied back into the core through 
