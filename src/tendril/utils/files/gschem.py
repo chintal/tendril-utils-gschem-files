@@ -40,7 +40,7 @@ try:
 except ImportError:
     import logging as log
 
-logger = log.get_logger(__name__)
+logger = log.getLogger(__name__)
 logger.setLevel(log.DEBUG)
 
 try:
